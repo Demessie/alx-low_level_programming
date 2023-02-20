@@ -1,18 +1,19 @@
  #include <stdio.h>
-/** main - Prints lowercase alphabets
+/**
+ * main - Prints lowercase alphabets
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-        char ch = 'z';
+	char ch = 'z';
 
-        for (ch = 'z'; ch >= 'a'; ch--)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
 		putchar(ch);
-        }
-        putchar('\n');
-        return (0);
+	}
+	putchar('\n');
+	return (0);
 }
 
