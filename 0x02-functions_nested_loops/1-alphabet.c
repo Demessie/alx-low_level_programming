@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet.
+ * print_alphabet - gives alphabetical order.
  *
  * Return: Always 0.
  */
